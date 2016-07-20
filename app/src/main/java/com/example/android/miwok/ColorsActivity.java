@@ -30,14 +30,14 @@ public class ColorsActivity extends AppCompatActivity {
 
 
         ArrayList<Word> words = new ArrayList<Word>();
-        words.add (new Word ("red" ,"wettetti"));
-        words.add (new Word ("green" ,"chokoki"));
-        words.add (new Word ("brown" ,"takkaaki"));
-        words.add (new Word ("gray" ,"topoppi"));
-        words.add (new Word ("black" ,"kululli"));
-        words.add (new Word ("white" ,"kelelli"));
-        words.add (new Word ("dusty yellow" ,"toplise"));
-        words.add (new Word ("mustard yellow" ,"chiwita"));
+        words.add (new Word ("red" ,"wettetti",R.drawable.color_red));
+        words.add (new Word ("green" ,"chokoki",R.drawable.color_green));
+        words.add (new Word ("brown" ,"takkaaki",R.drawable.color_brown));
+        words.add (new Word ("gray" ,"topoppi",R.drawable.color_gray));
+        words.add (new Word ("black" ,"kululli",R.drawable.color_black));
+        words.add (new Word ("white" ,"kelelli",R.drawable.color_white));
+        words.add (new Word ("dusty yellow" ,"toplise",R.drawable.color_dusty_yellow));
+        words.add (new Word ("mustard yellow" ,"chiwita",R.drawable.color_mustard_yellow));
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
 
